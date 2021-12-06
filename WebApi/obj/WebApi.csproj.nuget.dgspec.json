@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zekiu\\desktop\\project\\Bookstore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\zekiu\\Desktop\\Project\\Bookstore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zekiu\\desktop\\project\\Bookstore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\zekiu\\Desktop\\Project\\Bookstore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zekiu\\desktop\\project\\Bookstore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\zekiu\\Desktop\\Project\\Bookstore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\zekiu\\desktop\\project\\Bookstore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\zekiu\\Desktop\\Project\\Bookstore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\zekiu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zekiu\\desktop\\project\\Bookstore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\zekiu\\Desktop\\Project\\Bookstore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zekiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
